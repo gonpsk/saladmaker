@@ -273,7 +273,7 @@
 
                 {/* choose ingredient */}
                 <h1 className="font-extrabold text-xl mt-4 p-8">Choose your ingredients to make a salad</h1>
-                <div className="grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ml-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ml-8">
 
                     {filteredIngredients.map((ingredient) => (
                         <div key={ingredient.id} className="w-full h-[363px] p-[32px] gap-[24px] rounded-tl-[16px] bg-white shadow-lg relative mt-4 mb-8">
@@ -308,18 +308,18 @@
                             
                     </div>
                     <div className='w-5/6 flex items-center'>
-                    <div className="w-5/6 bg-yellow-500  container my-4 mx-4 h-16 rounded-2xl flex md:w-full sm:w-84  ">
+                    <div className="w-5/6 bg-yellow-500  container my-4 mx-4 h-20 sm:h-16 md:h-16 lg:h-16 rounded-2xl flex       ">
                         <p className="bg-white rounded-lg flex items-center justify-center p-2 w-[44px] h-[44px] m-3 text-center ml-4 text-yellow-500 font-extrabold text-xl">
                             {totalCount}
                         </p>
-                        <p className="text-white  text-center   font-extrabold text-2xl mt-4">Your Ingredients</p>
-                        <p className="text-white justify-end text-2xl font-extrabold ml-auto mr-12 mt-4">{totalCalories} Cal
+                        <p className="text-white  text-center   font-extrabold text-sm lg:text-2xl md:text-xl sm:text-lg mt-4 ">Your Ingredients</p>
+                        <p className="text-white justify-end text-sm lg:text-2xl md:text-xl sm:text-lg  font-extrabold ml-auto mr-12 mt-4">{totalCalories} Cal
 
 
                         </p>
                     </div>
                     <div className="w-1/6 ">
-                        <button className="bg-green-500 text-white font-bold py-2 px-4 rounded-2xl h-16 lg:w-56 text-xl  sm:w-28" onClick={openModal}>
+                        <button className="bg-green-500 text-white font-bold py-2 px-4 rounded-2xl h-20 sm:h-16 md:h-16 lg:h-16 lg:w-56 text-sm lg:text-2xl md:text-xl sm:text-lg  " onClick={openModal}>
                             Create Recipe
                         </button>
                     </div>
