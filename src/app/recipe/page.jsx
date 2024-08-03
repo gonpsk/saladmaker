@@ -95,7 +95,7 @@ function recipe() {
       <div className='w-1/6'>
         {/* sidebar */}
         <div className="flex">
-          <div className="bg-white text-white p-4 text-center h-screen fixed lg:w-80 md:w-44 sm:w-32">
+            <div className="bg-white text-white p-4 text-center h-screen  fixed w-24  md:w-40 sm:w-36 lg:w-80 ">
             <div className='flex justify-center mt-4'>
               <img src='/SALADMAKER..png' className=' mt-4 font-black text-2xl text-center' alt="Salad Maker" />
             </div>
@@ -129,9 +129,9 @@ function recipe() {
             <h2 className='p-8 text-2xl font-bold'>Recipe</h2>
             <div className='container mx-auto bg-white min-h-screen rounded-xl mb-8'>
               <h1 className='p-4 py-8 font-bold text-xl'>Your Recipe</h1>
-              <div className='grid lg:grid-cols-4  md:grid-cols-2 sm:grid-cols-1 gap-4 p-8'>
+               <div className='grid lg:grid-cols-4  md:grid-cols-3 sm:grid-cols-2  p-8  gap-8 '>
                 {recipes.map(recipe => (
-                  <div key={recipe.name} className="rounded-lg p-4 w-[344px] h-[363px] flex flex-col card-background">
+                  <div key={recipe.name} className="rounded-lg p-4   w-[344px] h-[363px] lg:w-[344px] lg:h-[363px] flex flex-col card-background md:w-[230px] md:h-[363px] sm:w-[250px] sm:h-[363px] ">
                     <div className='container mx-auto bg-white rounded-2xl h-40'>
                       <h3 className="text-lg p-3 mt-4 ">{recipe.name}</h3>
                       {recipe.calories && (
