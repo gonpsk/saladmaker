@@ -9,3 +9,4 @@ npm run dev
 
 *** ต้องมี private key ของ firebase ***
 
+ใช้ next.js และ tailwindcss 
