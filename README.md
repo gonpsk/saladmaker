@@ -1,3 +1,4 @@
+** รันทั้งหมด2ครั้ง **
 Server.js 
 รันโดยคำสั่ง npm run start:dev
 
@@ -5,3 +6,6 @@ Server.js
 
 รันปกติใช้ 
 npm run dev 
+
+*** ต้องมี private key ของ firebase ***
+
