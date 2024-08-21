@@ -215,13 +215,13 @@
 
                 {/* end banner */}
 
-                {/* category select */}
+               {/* category select */}
 
                 <h1 className="font-extrabold text-lg mt-4 p-8">Select Category</h1>
                 <div className="flex flex-wrap ml-8 gap-2">
                     <div className="relative inline-block">
                         <a href="#" onClick={(e) => toggleCategory('vegetable', e)} className="mr-6 bg-white rounded-xl flex flex-col items-center p-4 w-40 h-40">
-                            <img src='https://s3-alpha-sig.figma.com/img/c7e5/2430/5615cebfbe951bb0ff1b22db4ff73ced?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EZWwJhs2xqBbdvpU2sXMEYcCQQSzzSgzNiSwan6-qjBo9OoOf6ZhyTVkaNVSbiAQDt6k6kwzCDl~KjNawHDF~qYYOq68V-M4cjh9aqmRnuu8xZlJKjohAInVUTAt2dSXPiglvrDHRVE-tRI1Mm37ZpXwzuA7uLxJ~dEKm8k0yWG3pG9LcYcTxeusWsApR60KpStxKyIQ0I39Lpb01iI8orb-dIgu3UmLOqW5qXchLDu6PC37Us2nqMqmFRDKm301qzd81K112dJ5NidRKhoHXOe4~-NMQmAmcnW9H2tsdkWXnB2~xAqYW~yhTdTFA6rdiSaHxPJAoRTRZHcErVXIPg__' alt='vegetables' className="mt-2 w-16 h-16 rounded-full object-cover mb-4" />
+                            <img src='/iconve.png' alt='vegetables' className="mt-2 w-16 h-16 rounded-full object-cover mb-4" />
                             <h2 className="text-gray-500">Vegetables</h2>
                         </a>
                         <div className={`absolute top-2 right-8 bg-green-500 text-white rounded-full w-6 h-6 flex items-center justify-center ${selectedCategories.has('vegetable') ? 'block' : 'hidden'}`}>
@@ -231,7 +231,7 @@
 
                     <div className="relative inline-block">
                         <a href="#" onClick={(e) => toggleCategory('fruit', e)} className="mr-6 bg-white rounded-xl flex flex-col items-center p-4 w-40 h-40">
-                            <img src='https://s3-alpha-sig.figma.com/img/3c07/0f84/5a69611808d1184073ee1b8d01ad6daf?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mK94nXgTdUgA7C5ux~6Pz0vVlGZ-9u0JXToBw1rfC1asXwF~00cxDNP8z3lHp740f3og0z6TDSiLOkTGJObKqBRVUG391vCuXdtQZ3fxKK~KwuGYPhoDXkMBiz2CKlTslQPDMPQCBS81oY8GQmDI81SFeTWjifR9M~0w5x01Q3VfrRllFfjBQ99YMucLXgbAcYbHbZs94ApQKUdcKqPyUSZ86vmSXkE03pM2G6DHKPisUXVEAOlOlj7P1595xzBczQFqIegQe85toCVUaIaD8Nw9DUsnT7tCfE4ak-tA50z0uLHxuzavcx2f3AIhtX2PTBB95VKILc5R2hwhWo1w8g__' alt='fruit' className="mt-2 w-16 h-16 rounded-full object-cover mb-4" />
+                            <img src='iconfu.png' alt='fruit' className="mt-2 w-16 h-16 rounded-full object-cover mb-4" />
                             <h2 className="text-gray-500">Fruit</h2>
                         </a>
                         <div className={`absolute top-2 right-8 bg-green-500 text-white rounded-full w-6 h-6 flex items-center justify-center ${selectedCategories.has('fruit') ? 'block' : 'hidden'}`}>
@@ -241,7 +241,7 @@
 
                     <div className="relative inline-block ">
                         <a href="#" onClick={(e) => toggleCategory('topping', e)} className="mr-6 bg-white rounded-xl flex flex-col items-center p-4 w-40 h-40">
-                            <img src='https://s3-alpha-sig.figma.com/img/4f7b/3447/4b4d1d77315cce02382258e8d1617b22?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GnaSdKNikO25P4cuOJQWsv4iLhQoWJ7UDkyoXWLku0dBK9m~B7ppCQi4-5Smi0kSiBZSQ8q-0~f11JNnEFb0~CzLfBa-kCHOCziYS1PV0~417mHg-JgslCHekC~Dr9-55o5A9nVJaGyVxKwvxN82GwxodbcbS7pt-xg2YhfiDPLsweY8GuA573ALmkESPQQpHlZ7d67VPDztDrL32R49I-Jwue0YZ1Yn-KO5cKo7orSUoNLhi-I62yQeeVQyNsC7ww7HQiHkJrfdn186Ad4D47tWq-BUmY7MYYDXifKHwZOm8GNgStmsuyoviHteB1HaMXBpJkCDXd8IkHwKKctuhA__' alt='toppings' className="mt-2 w-16 h-16 rounded-full object-cover mb-4" />
+                            <img src='icontop.png' alt='toppings' className="mt-2 w-16 h-16 rounded-full object-cover mb-4" />
                             <h2 className="text-gray-500">Toppings</h2>
                         </a>
                         <div className={`absolute top-2 right-8 bg-green-500 text-white rounded-full w-6 h-6 flex items-center justify-center ${selectedCategories.has('topping') ? 'block' : 'hidden'}`}>
@@ -251,7 +251,7 @@
 
                     <div className="relative inline-block ">
                         <a href="#" onClick={(e) => toggleCategory('protein', e)} className="mr-6 bg-white rounded-xl flex flex-col items-center p-4 w-40 h-40">
-                            <img src='https://s3-alpha-sig.figma.com/img/842d/f7a2/06a6448aca0c7d1a10537094a487728e?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DGoBboFgJcr9dAVlvFZuvYKj6uaKlfNVsRIvAIUOUb1o5aGTkyik-Iic3mSibb0pJ570tsjCi4rS0QSVBvmDDEFTvpOMjdAW-HtXrLgUTAyf2y0I82vxTvsBcc8zhE6AQbhOrhUJvfrkHJ-BvtNcaYhoT1Bm0h2UCskn8gaV4Tfxblg6J5U4w1vI5EhN2rJ1td~vGQEPu4TTEGtjudWmyjXCNQAW~SUHvKLepOudPkyR8R9QcZk315qyxerMCzaa4iGJLomjmWgVoJoiPD~LLWNTn6zm5bUpeFIZJQKo6OQT4Q5MpkIA5QeOZvuNunbmsyE-cfY9hzwF1RBQ6~H6Mg__' alt='protein' className="mt-2 w-16 h-16 rounded-full object-cover mb-4" />
+                            <img src='iconpro.png' alt='protein' className="mt-2 w-16 h-16 rounded-full object-cover mb-4" />
                             <h2 className="text-gray-500">Protein</h2>
                         </a>
                         <div className={`absolute top-2 right-8 bg-green-500 text-white rounded-full w-6 h-6 flex items-center justify-center ${selectedCategories.has('protein') ? 'block' : 'hidden'}`}>
@@ -261,7 +261,7 @@
 
                     <div className="relative inline-block ">
                         <a href="#" onClick={(e) => toggleCategory('dressing', e)} className="mr-6 bg-white rounded-xl flex flex-col items-center p-4 w-40 h-40">
-                            <img src='https://s3-alpha-sig.figma.com/img/409b/6ff9/43e819bff3dac128e519654568cad785?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hOlmhOu~xi38g0UrfIK0zjNWceYQgXTb8-KQF-pgNNZ6QVmPk2aQW0wL5SsxeX3MBMepz6~xZ7qp6Aa7QesVBAVQImHFhvyBXG~Gset-OpwW2yNqDJ~hRb7HXRiA16n8UjSiEcE8-z~WU4SnX~DkyHgyCCt8aSi4-6tktEOknKQ72d9RYdm2EVCgj93rzCmBOusTiuoOoOxzuOUbngKU9ErE9tiWVCanDj0MMaiuHXR9dY6BF-AQGJssU7n7A0-4k47aJFVweRE9b8TXEjb4XcwU1FpxXTB53xnfvN-0tVUtBB8QvKs32Zs~oDFhzpyzf~S46sq2FrGJPKcLrJXgoA__' alt='dressing' className="mt-2 w-16 h-16 rounded-full object-cover mb-4" />
+                            <img src='icondress.png' alt='dressing' className="mt-2 w-16 h-16 rounded-full object-cover mb-4" />
                             <h2 className="text-gray-500">Dressing</h2>
                         </a>
                         <div className={`absolute top-2 right-8 bg-green-500 text-white rounded-full w-6 h-6 flex items-center justify-center ${selectedCategories.has('dressing') ? 'block' : 'hidden'}`}>
